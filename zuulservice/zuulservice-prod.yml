@@ -19,4 +19,7 @@
 # zuul.routes.assetsservice: /assets/**
 
 # Use Case 6 
-zuul.routes.assetsservice.url:  http://assetsservice-static:8081
+# zuul.routes.assetsservice.url:  http://assetsservice-static:8081
+
+# Use Case 7 
+zuul.routes.assetsservice.ribbon.listOfServers: http://assetsservice-static1:8081, http://assetsservice-static2:8082
