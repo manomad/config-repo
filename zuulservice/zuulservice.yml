@@ -1,2 +1,2 @@
 zuul.routes.organizationservice: /organization/**
-zuul.routes.licensingservice: /assets/**
+zuul.routes.assetsservice: /assets/**
